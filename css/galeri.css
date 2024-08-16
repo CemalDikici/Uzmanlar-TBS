@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --green: #2ecc71;
+    --blue: #4ea0c8;
+    --yellow: #be9b10;
+    --red: #c0392b;
+    --dark-blue: #34495e;
+    --midnight-blue: #2c3e50;
+    --light-white: #ecf0f1;
+    --silver: #bdc3c7;
+    --black: #000000;
+    --white: #fff;
+    --saydam:white;
+    --saydamm: black;
+    --yelloww:#fcd127;
+
+
+    --txtw-color: var(--white);
+    --bg-color: var(--yellow);
+    --txt-color: var(--black);
+    --link-color: var(--white);
+    --buton-color: var(--red);
+    --header-color: var(--silver);
+}
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--txtw-color);
+    box-sizing: border-box;
+}
+
+/* helper */
+.clear-fix {
+    clear: both;
+}
+
+body {
+    background: var(--bg-color);
+    font-family: "Quicksand", sans-serif;
+}
+/* navbar */ 
+.logo {
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--saydamm);
+    width: 100%;
+}
+
+header nav h1 {
+    color: var(--light-white);
+}
+
+
+
+
+.data>ul>li {
+    float: left;
+    color: var(--light-white);
+    margin-right: 10px;
+    font-weight: 900;
+    font-size: large;
+}
+
+.data ul {
+    list-style: none;
+}
+
+.data ul li a {
+    color: var(--light-white);
+    text-decoration: none;
+    margin-right: 20px;
+    list-style-type: none;
+    padding: 4px 8px;
+}
+
+.data ul li a:hover {
+    color: #fcd127;
+    background-color: #40566b;
+    border-radius: 6px;
+    transition: 0.1s;
+}
+
+
+.tel1 {
+    display: flex;
+    width: 200px;
+    border: 2px solid var(--light-white);
+    border-radius: 6px;
+    background-color: black;
+    justify-content: space-around;
+    margin: 5px 5px 5px 5px;
+    padding: 2px;
+
+}
+.yellow:hover {
+    color: #fcd127;
+
+}
+.tel1:hover{
+    color: #fcd127;
+    background-color: #40566b;
+    border-radius: 6px;
+    transition: 0.1s;
+}
+.sex:hover{
+    color: #fcd127;
+    transition: 0.1s;
+
+}
+.sex{
+    padding: 10px 5px 0px 5px;
+}
+.tel1  a {
+    text-decoration: none;
+    color: white;
+    
+}
+div .img {
+    width: 1000px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+header>nav>a {
+    text-decoration: none;
+}
+.container .res1 img {
+    width: 100px;
+}
+
+div>svg {
+    margin-right: 20px;
+    margin-top: 5px;
+
+}
+
+/*footer */
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    padding: auto;
+    background-color: var(--black);
+}
+.footer-col{
+    width: 25%;
+    height: 400px;
+}
+.footer-col .h2{
+    margin-left: 28px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    font-size: 22px;
+    color: #f1bc0d;
+    text-transform: capitalize;
+}
+.footer-col h2{
+    
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    font-size: 22px;
+    color: #f1bc0d;
+    text-transform: capitalize;
+}
+.footer-col h2:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    height: 2px;
+    width: 80px;
+}
+.footer-col a {
+    display: block;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #bdb6b6;
+    text-decoration: none;
+    transition: 0.4s;
+
+}
+.footer-col a:hover{
+    color: white;
+    padding-left: 5px;
+}
+.footer-col p{
+    display: block;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #bdb6b6;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.footer-col p:hover{
+    color: white;
+    padding-left: 5px;
+}
+.circle{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: rgba(40, 130, 214, 0.8);
+    margin: 0 7px 8px 0;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.circle:hover{
+    color: #4d4f55;
+    background-color: white;
+
+}
+.circle-2{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: rgb(182, 11, 48);
+    margin: 0 7px 8px 0;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.circle-2:hover{
+    color: #4d4f55;
+    background-color: white;
+}
+.text{
+    margin: 0 30px 30px 30px;
+   }
+   .footer{
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    
+}
+.icon{
+    top: 170px;
+    right: 400px;
+}
+.footer div a {
+    text-decoration: none;
+}
+.footer div a:hover{
+    color: var(--yelloww);
+}
